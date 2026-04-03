@@ -11089,8 +11089,18 @@ footer.footer .social-link:hover {
   color: #1D809F;
   height: 7rem;
   width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 0 auto;  /* ensures centering even without mx-auto class */
+}
+
+/* Optional: Add hover effect for interactivity */
+.service-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  color: #0d6efd;  /* or any hover color you prefer */
 }
