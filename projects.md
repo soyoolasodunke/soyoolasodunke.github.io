@@ -27,56 +27,14 @@ Each project is approached with a practical mindset: understand the problem, wor
 
 ## Project Categories
 
-## Data Analytics Projects
-Projects in this category focus on using data to answer business questions, identify patterns, and support better decisions. These may include:
+### Data Analytics Projects
+Projects in this category focus on using data to answer business questions, identify patterns, and support better decisions.
 
-- KPI and performance analysis
-- Dashboard design concepts
-- Sales and revenue analysis
-- Customer behavior and churn analysis
-- Operational reporting and trend analysis
-- Business case-based analytics projects
+### Business Intelligence and Reporting
+These projects focus on how data should be structured, presented, and used in reporting environments.
 
-## Business Intelligence and Reporting
-These projects focus on how data should be structured, presented, and used in reporting environments. They may include:
-
-- Dashboard mockups or implementations
-- Executive reporting ideas
-- KPI frameworks
-- Report design logic
-- Visual storytelling with data
-
-## Solution and Case-Based Projects
-These projects demonstrate solution thinking, especially where business needs must be translated into a technical or analytical response. They may include:
-
-- Data platform modernization case studies
-- Scenario-based solution recommendations
-- Analytics strategy concepts
-- Customer-facing problem-solution writeups
-
-## Featured Project Areas
-
-Some of the project themes you can expect to find here include:
-
-- Customer churn analysis
-- Executive sales performance dashboards
-- KPI design and business reporting
-- Data platform and analytics modernization ideas
-- Business case evaluations and solution recommendations
-- Capstone-style analytics projects
-
-## How to Read These Projects
-
-Most projects on this site are structured to answer important questions such as:
-
-- What business problem is being solved?
-- What data or assumptions were used?
-- What method or approach was taken?
-- What insights were discovered?
-- What recommendation was made?
-- What value does the solution provide?
-
-This structure reflects the way real business and presales conversations often happen: technical work is most valuable when it is tied to business context and clear outcomes.
+### Solution and Case-Based Projects
+These projects demonstrate solution thinking, especially where business needs must be translated into a technical or analytical response.
 
 ## Why This Matters
 
@@ -84,25 +42,38 @@ As a Presales Engineer and Data Solutions Engineer, I believe projects should do
 
 That is the standard these projects aim to meet.
 
-## Projects Will Be Added Here
+## Project Portfolio
 
-Selected project entries will appear below as this portfolio continues to grow.
+{% assign sorted_projects = site.projects | sort: "title" %}
 
-<!-- Example format for future project listing
+{% if sorted_projects.size > 0 %}
+  {% for project in sorted_projects %}
+  ### [{{ project.title }}]({{ project.url | relative_url }})
 
-### [Customer Churn Analysis](/projects/customer-churn-analysis/)
-A business-focused churn analysis project designed to identify customer attrition drivers and recommend retention actions.
+  {% if project.summary %}
+  {{ project.summary }}
+  {% elsif project.description %}
+  {{ project.description }}
+  {% else %}
+  A project focused on business problem-solving, analytics, and solution-oriented thinking.
+  {% endif %}
 
-### [Executive Sales Dashboard](/projects/executive-sales-dashboard/)
-A dashboard-driven project focused on sales performance visibility, KPI tracking, and executive decision support.
+  {% if project.tools %}
+  **Tools:** {{ project.tools | join: ", " }}
+  {% endif %}
 
-### [Data Platform Modernization Case Study](/projects/data-platform-modernization-case-study/)
-A case-based solution project exploring how a modern analytics architecture can support cost optimization, governance, and AI readiness.
+  {% if project.business_problem %}
+  **Business Problem:** {{ project.business_problem }}
+  {% endif %}
 
--->
+  ---
+  {% endfor %}
+{% else %}
+No projects have been published yet. Project entries added to the `_projects` folder will automatically appear here.
+{% endif %}
 
 ## Related Content
 
 You may also be interested in the technical articles section, where I share writeups on analytics, business intelligence, solution engineering, and related technical concepts.
 
-[Read Articles](/articles/)
+[Read Articles]({{ '/articles/' | relative_url }})
