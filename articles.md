@@ -23,43 +23,17 @@ The articles on this site are written to be:
 
 ## Main Topics Covered
 
-## Data Analytics
-Articles in this category explore how data can be used to generate insight, support decision-making, and improve business visibility. Topics may include:
+### Data Analytics
+Articles in this category explore how data can be used to generate insight, support decision-making, and improve business visibility.
 
-- Data analysis concepts
-- KPI design
-- Reporting practices
-- Dashboard thinking
-- Data storytelling
-- Business-focused analytics interpretation
+### Business Intelligence
+These articles focus on common BI concepts, tool logic, and practical understanding.
 
-## Business Intelligence
-These articles focus on common BI concepts, tool logic, and practical understanding. Topics may include:
+### Data Platforms and Solution Design
+These writeups explore broader solution and architecture ideas relevant to modern organizations.
 
-- KPIs vs reports vs dashboards
-- Tableau concepts such as table calculations and compute using
-- Dashboard design best practices
-- Metrics and performance reporting
-- Visual communication of data
-
-## Data Platforms and Solution Design
-These writeups explore broader solution and architecture ideas relevant to modern organizations. Topics may include:
-
-- Data warehouse vs data lake vs lakehouse
-- Analytics readiness
-- Governance and reporting foundations
-- Data modernization strategy
-- Business and technical alignment
-
-## Presales Engineering
-This category focuses on the customer-facing technical profession itself. Topics may include:
-
-- Solution discovery
-- Requirement gathering
-- Technical storytelling
-- Demo preparation
-- Value articulation
-- Translating technical capability into business impact
+### Presales Engineering
+This category focuses on the customer-facing technical profession itself.
 
 ## Why These Articles Matter
 
@@ -67,38 +41,30 @@ Strong technical work becomes far more valuable when it can be explained clearly
 
 These articles reflect that belief. They are intended to show not only what I know, but also how I think and how I communicate.
 
-## Example Topics You Can Expect
+## Published Articles
 
-Some article topics that fit this portfolio include:
+{% if site.posts.size > 0 %}
+  {% for post in site.posts %}
+  ### [{{ post.title }}]({{ post.url | relative_url }})
 
-- KPIs vs Reports vs Dashboards
-- Table Calculation vs Calculated Field in Tableau
-- What Compute Using Means in Tableau
-- How to Design Better Executive Dashboards
-- How Presales Engineers Communicate Technical Value
-- Data Lake vs Data Warehouse vs Lakehouse
-- What Businesses Need from Modern Analytics Platforms
-- Turning Customer Pain Points into Solution Recommendations
+  **Published:** {{ post.date | date: "%B %d, %Y" }}
 
-## Articles Will Be Added Here
+  {% if post.description %}
+  {{ post.description }}
+  {% elsif post.excerpt %}
+  {{ post.excerpt | strip_html | truncate: 220 }}
+  {% else %}
+  A technical article on analytics, business intelligence, solution design, or presales engineering.
+  {% endif %}
 
-Published articles will appear below as this section grows.
-
-<!-- Example format for future article listing
-
-### [KPIs vs Reports vs Dashboards: What’s the Difference?](/analytics/kpis-vs-reports-vs-dashboards/)
-A practical explanation of how KPIs, reports, and dashboards differ, and when each should be used.
-
-### [Table Calculation vs Calculated Field in Tableau](/analytics/table-calculation-vs-calculated-field-tableau/)
-A plain-language guide to understanding two commonly confused Tableau concepts.
-
-### [How Presales Engineers Turn Technical Features into Business Value](/presales/how-presales-engineers-turn-technical-features-into-business-value/)
-An article on the communication and strategic thinking required in customer-facing technical roles.
-
--->
+  ---
+  {% endfor %}
+{% else %}
+No articles have been published yet. New posts added to the `_posts` folder will automatically appear here.
+{% endif %}
 
 ## Explore My Project Work
 
 If you would like to see practical examples of how these ideas are applied, please visit the projects section.
 
-[View Projects](/projects/)
+[View Projects]({{ '/projects/' | relative_url }})
