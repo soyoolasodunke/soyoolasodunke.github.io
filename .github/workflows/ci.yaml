@@ -13,6 +13,6 @@ jobs:
           ruby-version: 3.2
           bundler-cache: true
       - name: build
-        run: script/bootstrap
+        run: git chmod +x script/bootstrap git commit -m "Make bootstrap script executable" git push
       - name: test
         run: bash script/cibuild
