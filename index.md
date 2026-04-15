@@ -1,123 +1,44 @@
 ---
 layout: default
+title: Home
+description: "Portfolio of data analytics projects and technical articles by Soyoola Sodunke, Presales Engineer and Data Solutions Engineer."
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## What I Do
 
-[Link to another page](./another-page.html).
+I help organizations make better technology and data decisions by combining business discovery, analytics thinking, and solution-oriented communication.
 
-There should be whitespace between paragraphs.
+<div class="card-grid">
+  <div class="card">
+    <h3>Data Analytics Projects</h3>
+    <p>Business-focused analytics projects covering dashboards, reporting, KPIs, data modeling, and decision support.</p>
+    <p><a href="/projects/">Explore projects →</a></p>
+  </div>
+  <div class="card">
+    <h3>Technical Articles</h3>
+    <p>Plain-language technical writeups on analytics, BI, data platforms, and solution engineering.</p>
+    <p><a href="/articles/">Read articles →</a></p>
+  </div>
+  <div class="card">
+    <h3>Solution Engineering Mindset</h3>
+    <p>I translate customer pain points into practical architectures, demos, recommendations, and technical value stories.</p>
+  </div>
+</div>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Why This Portfolio Matters
 
-# Header 1
+This site showcases how I think through business problems, structure technical solutions, and communicate clearly with both technical and non-technical stakeholders.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Featured Projects
 
-## Header 2
+- Customer Churn Analysis for retention strategy
+- Executive Sales Performance Dashboard
+- Data Platform Modernization case study
+- KPI framework for operational reporting
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Featured Topics
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- KPIs vs Reports vs Dashboards
+- Tableau calculated fields and table calculations
+- Data platform design for analytics readiness
+- How presales engineers communicate technical value
