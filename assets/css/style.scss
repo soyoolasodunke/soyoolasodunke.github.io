@@ -538,3 +538,116 @@ li {
     font-size: 0.93rem;
   }
 }
+
+/* ---------- Hero upgrade ---------- */
+.hero {
+  background: linear-gradient(135deg, #0b1020, #13203d);
+  color: #ffffff;
+  padding: 5rem 0 4.5rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.08;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  max-width: 850px;
+}
+
+.hero-text {
+  max-width: 760px;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-highlight-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.hero-highlight-title {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+  color: #ffffff;
+}
+
+.hero-highlight-text {
+  display: block;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hero-panel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-panel-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.hero-panel-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1rem;
+}
+
+.hero-panel-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.hero-panel-list li {
+  margin-bottom: 0.7rem;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.65;
+}
+
+/* Responsive hero */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel {
+    justify-content: flex-start;
+  }
+
+  .hero-highlights {
+    grid-template-columns: 1fr;
+  }
+}
