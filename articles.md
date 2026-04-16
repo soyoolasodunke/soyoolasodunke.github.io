@@ -7,11 +7,7 @@ permalink: /articles/
 
 # Articles
 
-This section features technical articles and professional insights focused on data, analytics, AI-driven solutions, and presales engineering practices.
-
-The content is designed to translate complex technologies into clear, business-relevant narratives that support informed decision-making. It emphasizes practical solution thinking, real-world application, and the alignment of data and AI capabilities with business outcomes.
-
-Reflecting the core responsibility of a presales engineer, these writeups demonstrate not only technical depth, but the ability to structure, simplify, and communicate solutions effectively to both technical and non-technical stakeholders.
+This section features technical articles and professional insights focused on data analytics, AI-driven solutions, and presales engineering practices. Designed to translate complex technologies into clear, business-relevant narratives that support informed decision-making.
 
 ## Published Articles
 
@@ -27,6 +23,6 @@ No articles have been published yet. New posts added to the `_posts` folder will
 
 ## Explore My Project Work
 
-Would you like to see practical examples of how these ideas are applied? Please visit my projects section.
+Would you like to see practical examples of how these ideas are applied in the real world scenarios? Please visit my projects section for more.
 
 [View Projects]({{ '/projects/' | relative_url }})
