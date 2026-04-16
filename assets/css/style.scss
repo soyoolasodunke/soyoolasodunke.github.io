@@ -196,10 +196,34 @@ img {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background: #ffffff;
-  border-top: 1px solid var(--border);
+  background: #0f172a; /* dark background */
+  border-top: 1px solid rgba(255,255,255,0.08);
   padding: 2rem 0;
-  color: var(--muted);
+  color: rgba(255,255,255,0.9);
+  margin-top: 3rem;
+}
+
+.site-footer p {
+  margin: 0.4rem 0;
+  color: rgba(255,255,255,0.9);
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: #38bdf8; /* light blue */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  color: #7dd3fc;
+  text-decoration: underline;
+}
+
+.site-footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
 /* ---------- Responsive ---------- */
