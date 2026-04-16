@@ -204,3 +204,101 @@ img {
     gap: 0.75rem;
   }
 }
+
+/* ---------- Section spacing ---------- */
+section,
+.page-section {
+  margin-bottom: 3rem;
+}
+
+/* ---------- Card layout ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.4rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.card h3 a {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.card h3 a:hover {
+  color: #0f766e;
+}
+
+.card p {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.card .meta {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* ---------- Homepage emphasis ---------- */
+.site-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.site-content > p,
+.site-content li {
+  max-width: 900px;
+}
+
+/* ---------- Buttons and inline links ---------- */
+a {
+  color: #0f766e;
+}
+
+a:hover {
+  color: #115e59;
+}
+
+/* ---------- Code formatting ---------- */
+code {
+  background: #f3f4f6;
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+  font-size: 0.95em;
+}
+
+/* ---------- Lists ---------- */
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Responsive improvements ---------- */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
