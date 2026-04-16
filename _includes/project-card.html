@@ -1,0 +1,21 @@
+<div class="card project-card">
+  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+
+  {% if project.summary %}
+    <p>{{ project.summary }}</p>
+  {% elsif project.description %}
+    <p>{{ project.description }}</p>
+  {% else %}
+    <p>A project focused on analytics, business problem-solving, and solution-oriented thinking.</p>
+  {% endif %}
+
+  {% if project.tools %}
+    <p class="meta"><strong>Tools:</strong> {{ project.tools | join: ", " }}</p>
+  {% endif %}
+
+  {% if project.business_problem %}
+    <p class="meta"><strong>Business Problem:</strong> {{ project.business_problem }}</p>
+  {% endif %}
+
+  <p><a href="{{ project.url | relative_url }}">View Project →</a></p>
+</div>

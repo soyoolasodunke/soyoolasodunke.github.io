@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="project-page">
+  <header class="page-hero page-hero-project">
+    <p class="page-label">Project</p>
+    <h1>{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="page-summary">{{ page.summary }}</p>
+    {% elsif page.description %}
+      <p class="page-summary">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="page-meta-wrap">
+      {% if page.tools %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Tools</span>
+          <span class="meta-content">{{ page.tools | join: ", " }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.business_problem %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Business Problem</span>
+          <span class="meta-content">{{ page.business_problem }}</span>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.github_url or page.demo_url %}
+      <div class="page-actions">
+        {% if page.github_url %}
+          <a class="btn-primary" href="{{ page.github_url }}">View GitHub Repo</a>
+        {% endif %}
+        {% if page.demo_url %}
+          <a class="btn-secondary" href="{{ page.demo_url }}">View Demo</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="content-shell">
+    <div class="content-main">
+      {{ content }}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="article-page">
+  <header class="page-hero page-hero-article">
+    <p class="page-label">Article</p>
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="page-summary">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="page-meta-wrap">
+      <div class="page-meta-block">
+        <span class="meta-heading">Published</span>
+        <span class="meta-content">{{ page.date | date: "%B %d, %Y" }}</span>
+      </div>
+
+      {% if page.categories and page.categories.size > 0 %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Categories</span>
+          <span class="meta-content">{{ page.categories | join: ", " }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.tags and page.tags.size > 0 %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Tags</span>
+          <span class="meta-content">{{ page.tags | join: ", " }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="content-shell">
+    <div class="content-main article-content">
+      {{ content }}
+    </div>
+  </div>
+</article>

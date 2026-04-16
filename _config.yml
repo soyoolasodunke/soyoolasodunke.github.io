@@ -1,0 +1,48 @@
+title: "Soyoola Sodunke"
+tagline: "Presales Engineer | Data Solutions Engineer"
+description: "Portfolio of data analytics projects, technical writeups, and solution engineering work by Soyoola Sodunke."
+url: "https://soyoolasodunke.github.io"
+baseurl: ""
+theme: jekyll-theme-slate
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+show_downloads: false
+
+author:
+  name: "Soyoola Sodunke"
+  url: "https://soyoolasodunke.github.io"
+
+social:
+  name: "Soyoola Sodunke"
+  links:
+    - "https://github.com/soyoolasodunke"
+    - "https://www.linkedin.com/in/soyoolasodunke/"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
