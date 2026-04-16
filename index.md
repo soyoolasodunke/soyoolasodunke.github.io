@@ -1,44 +1,73 @@
 ---
 layout: default
 title: Home
-description: "Portfolio of data analytics projects and technical articles by Soyoola Sodunke, Presales Engineer and Data Solutions Engineer."
+description: "Portfolio of data analytics projects, technical writeups, and solution-focused work by Soyoola Sodunke, Presales Engineer and Data Solutions Engineer."
 ---
 
 ## What I Do
 
-I help organizations make better technology and data decisions by combining business discovery, analytics thinking, and solution-oriented communication.
+I help organizations solve business problems with **data, analytics, and solution-oriented thinking**. My work focuses on translating business needs into clear technical direction through analytics projects, technical writeups, and practical solution communication.
 
 <div class="card-grid">
   <div class="card">
     <h3>Data Analytics Projects</h3>
-    <p>Business-focused analytics projects covering dashboards, reporting, KPIs, data modeling, and decision support.</p>
-    <p><a href="/projects/">Explore projects →</a></p>
+    <p>I build and document projects that demonstrate business problem-solving, KPI thinking, reporting logic, dashboard design, and decision support.</p>
+    <p><a href="{{ '/projects/' | relative_url }}">Explore Projects →</a></p>
   </div>
+
   <div class="card">
     <h3>Technical Articles</h3>
-    <p>Plain-language technical writeups on analytics, BI, data platforms, and solution engineering.</p>
-    <p><a href="/articles/">Read articles →</a></p>
+    <p>I write clear and practical articles on analytics, BI, data platforms, and presales engineering concepts.</p>
+    <p><a href="{{ '/articles/' | relative_url }}">Read Articles →</a></p>
   </div>
+
   <div class="card">
     <h3>Solution Engineering Mindset</h3>
-    <p>I translate customer pain points into practical architectures, demos, recommendations, and technical value stories.</p>
+    <p>I approach technical work with a strong focus on clarity, business value, customer relevance, and practical implementation.</p>
   </div>
 </div>
 
-## Why This Portfolio Matters
+## Professional Focus
 
-This site showcases how I think through business problems, structure technical solutions, and communicate clearly with both technical and non-technical stakeholders.
+My portfolio is built around the type of work that matters in **Presales Engineering** and **Data Solutions Engineering**:
+
+- business problem understanding
+- technical solution thinking
+- analytics and reporting
+- dashboard and KPI design
+- technical communication
+- customer-facing value articulation
 
 ## Featured Projects
 
-- Customer Churn Analysis for retention strategy
-- Executive Sales Performance Dashboard
-- Data Platform Modernization case study
-- KPI framework for operational reporting
+{% assign featured_projects = site.projects | where: "featured", true %}
 
-## Featured Topics
+{% if featured_projects.size > 0 %}
+<div class="card-grid">
+  {% for project in featured_projects limit:3 %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>
+{% else %}
+<p>No featured projects yet. Mark any project with <code>featured: true</code> in its front matter to show it here.</p>
+{% endif %}
 
-- KPIs vs Reports vs Dashboards
-- Tableau calculated fields and table calculations
-- Data platform design for analytics readiness
-- How presales engineers communicate technical value
+<p><a href="{{ '/projects/' | relative_url }}">View All Projects →</a></p>
+
+## Latest Articles
+
+{% if site.posts.size > 0 %}
+<div class="card-grid">
+  {% for post in site.posts limit:3 %}
+    {% include article-card.html post=post %}
+  {% endfor %}
+</div>
+{% else %}
+<p>No articles published yet. Posts added to the <code>_posts</code> folder will appear here automatically.</p>
+{% endif %}
+
+<p><a href="{{ '/articles/' | relative_url }}">View All Articles →</a></p>
+
+## Why This Portfolio
+
+This site is designed to showcase how I think through business and technical problems, communicate clearly, and structure practical data-driven solutions. It reflects both my technical interests and my professional direction as a customer-facing engineer.
