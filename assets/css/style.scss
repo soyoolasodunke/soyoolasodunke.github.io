@@ -651,3 +651,32 @@ li {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Resume page ---------- */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.resume-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.resume-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.08rem;
+  color: #0f172a;
+}
+
+.resume-card p {
+  margin-bottom: 0;
+  color: #475569;
+  line-height: 1.75;
+}
