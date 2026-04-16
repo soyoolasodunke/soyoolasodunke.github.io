@@ -12,7 +12,7 @@ permalink: /resume/
 
 ## Professional Summary
 
-I am a Presales Engineer with a growing focus on **data analytics, business intelligence, cloud adoption, AI transformation, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
+I am a Presales Engineer with a growing focus on **data analytics, business intelligence, data governance, cloud adoption, AI readiness, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
 
 I enjoy working at the intersection of business and technology, especially where technical concepts must be simplified for stakeholders, opportunities must be framed clearly, and data-related solutions must be positioned in a structured and practical way.
 
