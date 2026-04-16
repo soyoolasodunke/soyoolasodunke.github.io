@@ -226,6 +226,12 @@ img {
   gap: 0.4rem;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .site-header .container {
