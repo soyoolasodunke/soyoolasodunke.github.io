@@ -1,6 +1,18 @@
-# Board-level blueprint for business continuity, data trust, digital sovereignty, and sustainable security in the AI era
-
-## Executive summary
+---
+title: "Board-level Blueprint for Business Continuity, Data Trust, Digital Sovereignty, and Sustainable Security in the AI Era"
+layout: article
+description: "A clear explanation of KPIs, reports, and dashboards for business teams, analysts, and solution engineers."
+categories:
+  - governance & security
+  - digital sovereignty
+tags:
+  - data trust
+  - ai
+  - data security
+  - microsoft
+  - azure
+  - data platform
+---
 
 Boards and senior data leaders are being asked to authorize a new class of risk: moving mission-critical data and AI workloads onto shared, highly concentrated cloud and compute supply chains—while regulators increasingly expect *risk-based*, sector-specific controls and provable operational resilience. This moment is different because AI expands the attack surface from “systems and data” to include *training pipelines, model artifacts, inference interfaces, and agentic automation*, turning model integrity into a business-continuity dependency.
 
