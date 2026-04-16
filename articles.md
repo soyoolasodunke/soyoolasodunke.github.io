@@ -16,27 +16,17 @@ Reflecting the core responsibility of a presales engineer, these writeups demons
 ## Published Articles
 
 {% if site.posts.size > 0 %}
+<div class="card-grid">
   {% for post in site.posts %}
-  ### [{{ post.title }}]({{ post.url | relative_url }})
-
-  **Published:** {{ post.date | date: "%B %d, %Y" }}
-
-  {% if post.description %}
-  {{ post.description }}
-  {% elsif post.excerpt %}
-  {{ post.excerpt | strip_html | truncate: 220 }}
-  {% else %}
-  A technical article on analytics, business intelligence, solution design, or presales engineering.
-  {% endif %}
-
-  ---
+    {% include article-card.html post=post %}
   {% endfor %}
+</div>
 {% else %}
 No articles have been published yet. New posts added to the `_posts` folder will automatically appear here.
 {% endif %}
 
 ## Explore My Project Work
 
-Like to see practical examples of how these ideas are applied? Visit the projects section.
+Would you like to see practical examples of how these ideas are applied? Please visit my projects section.
 
 [View Projects]({{ '/projects/' | relative_url }})
