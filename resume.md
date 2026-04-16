@@ -12,7 +12,7 @@ permalink: /resume/
 
 ## Professional Summary
 
-I am a Presales Engineer with a growing focus on **data analytics, business intelligence, solution engineering, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
+I am a Presales Engineer with a growing focus on **data analytics, business intelligence, cloud adoption, AI transformation, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
 
 I enjoy working at the intersection of business and technology, especially where technical concepts must be simplified for stakeholders, opportunities must be framed clearly, and data-related solutions must be positioned in a structured and practical way.
 
@@ -54,14 +54,13 @@ I enjoy working at the intersection of business and technology, especially where
 
 ### Data and Analytics
 - SQL
-- Tableau
-- Power BI
+- Power BI & Tableau
 - Microsoft Excel
 - Reporting concepts
-- Dashboard thinking
-- KPI design
+- KPI thinking
 - Data interpretation
 - Data storytelling
+- Use case recommendation
 
 ### Data Platform Awareness
 - Data warehouse concepts
@@ -101,15 +100,6 @@ I believe strong technical work should also be easy to explain, defend, and pres
 ### Continuous Growth
 I am committed to deepening my expertise in analytics, solution engineering, data platforms, and business-facing technical advisory.
 
-## Portfolio Focus
-
-This portfolio reflects two major areas of professional development:
-
-### Data Analytics Projects
-Projects that demonstrate analytics thinking, business problem-solving, KPI design, reporting logic, and insight communication.
-
-### Technical Articles and Writeups
-Articles that simplify technical concepts and explore practical ideas in analytics, BI, data platforms, and presales engineering.
 
 ## Education
 
