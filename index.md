@@ -6,7 +6,7 @@ description: "Portfolio of data analytics projects, technical writeups, and solu
 
 ## What I Do
 
-I help organizations solve business problems with **data, analytics, and solution-oriented thinking**. My work focuses on translating business needs into clear technical direction through analytics projects, technical writeups, and practical solution communication.
+I help organizations solve business problems with **data analytics, and solution-oriented thinking**. My work focuses on translating business needs into clear technical direction through problem discovery, technical proposals, value proposition demos, and practical solution communication.
 
 <div class="card-grid">
   <div class="card">
@@ -17,7 +17,7 @@ I help organizations solve business problems with **data, analytics, and solutio
 
   <div class="card">
     <h3>Technical Articles</h3>
-    <p>I write clear and practical articles on analytics, BI, data platforms, and presales engineering concepts.</p>
+    <p>I write clear and practical articles on data modernization, AI/ML transformation, data platforms implementation, and presales engineering concepts.</p>
     <p><a href="{{ '/articles/' | relative_url }}">Read Articles →</a></p>
   </div>
 
@@ -27,16 +27,6 @@ I help organizations solve business problems with **data, analytics, and solutio
   </div>
 </div>
 
-## Professional Focus
-
-My portfolio is built around the type of work that matters in **Presales Engineering** and **Data Solutions Engineering**:
-
-- business problem understanding
-- technical solution thinking
-- analytics and reporting
-- dashboard and KPI design
-- technical communication
-- customer-facing value articulation
 
 ## Featured Projects
 
