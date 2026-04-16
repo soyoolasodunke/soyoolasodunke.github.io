@@ -1,7 +1,7 @@
 ---
 title: "Board-level Blueprint for Business Continuity, Data Trust, Digital Sovereignty, and Sustainable Security in the AI Era"
 layout: article
-description: "A clear explanation of KPIs, reports, and dashboards for business teams, analysts, and solution engineers."
+description: "Conversations around data sovereignty, AI security, and regulatory compliance are no longer theoretical—they are boardroom priorities that demand practical, executable answers."
 categories:
   - governance & security
   - digital sovereignty
