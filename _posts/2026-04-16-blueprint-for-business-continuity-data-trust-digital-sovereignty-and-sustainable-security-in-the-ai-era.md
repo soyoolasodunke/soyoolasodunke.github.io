@@ -71,7 +71,9 @@ A practical sovereignty pattern is **hybrid-by-design**: keep the highest-sensit
 
 Below diagram illustrates hybrid sovereignty architecture. This pattern is consistent with (a) enforced region controls, (b) customer-controlled keys, (c) strict support access governance, and (d) confidential computation for sensitive processing.
 
-![Hybrid sovereignty architecture showing on-premises and cloud environments with data flow controls, encryption boundaries, and access governance pathways. The diagram depicts in-country sensitive data repositories connected to elastically scaled cloud analytics and AI workloads through enforced region policies, customer-managed encryption keys, support access approvals via Customer Lockbox, and confidential computing layers for multi-tenant processing scenarios.](https://github.com/soyoolasodunke/soyoolasodunke.github.io/blob/new-style/assets/images/data-sovereignty.png "Data Sovereignty Architecture Diagram")
+![Hybrid sovereignty architecture showing on-premises and cloud environments with data flow controls, encryption boundaries, and access governance pathways. The diagram depicts in-country sensitive data repositories connected to elastically scaled cloud analytics and AI workloads through enforced region policies, customer-managed encryption keys, support access approvals via Customer Lockbox, and confidential computing layers for multi-tenant processing scenarios.]('/assets/images/articles/data-sovereignty.png' "Data Sovereignty Architecture Diagram")
+
+<img src="{{ '/assets/images/articles/data-sovereignty.png' | relative_url }}" alt="Data Sovereignty Architecture Diagram">
 
 Key sovereignty controls to evidence:
 
