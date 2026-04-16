@@ -7,50 +7,67 @@ permalink: /resume/
 
 # Resume
 
+> **Presales Engineer | Data Solutions Engineer**  
+> Customer-facing technical professional with strengths in analytics, solution-oriented communication, business problem discovery, and technical value articulation.
+
 ## Professional Summary
 
-Presales Engineer with a growing background in **data solutions, analytics, technical communication, and customer-facing solution support**. Experienced in translating business requirements into structured solution ideas, supporting technical discussions, and presenting technology value in a clear and professional manner. Strong interest in analytics, business intelligence, modern data platforms, and practical solution design that aligns technical capabilities with business outcomes.
+I am a Presales Engineer with a growing focus on **data analytics, business intelligence, solution engineering, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
 
-## Core Competencies
+I enjoy working at the intersection of business and technology, especially where technical concepts must be simplified for stakeholders, opportunities must be framed clearly, and data-related solutions must be positioned in a structured and practical way.
 
-- Presales support and solution positioning
-- Business and technical requirements discovery
-- Customer-facing technical communication
-- Data analytics and reporting
-- Dashboard and KPI thinking
-- Technical presentations and demonstrations
-- Solution documentation and writeups
-- Business case and problem analysis
-- Stakeholder communication
-- Value articulation and solution storytelling
+## Core Strengths
 
-## Technical Skills
+<div class="resume-grid">
+  <div class="resume-card">
+    <h3>Presales and Solution Support</h3>
+    <p>Supporting technical sales conversations through solution mapping, requirements understanding, and clear technical communication.</p>
+  </div>
+
+  <div class="resume-card">
+    <h3>Analytics and BI Thinking</h3>
+    <p>Applying analytics, reporting, KPI design, and dashboard concepts to support better business visibility and decision-making.</p>
+  </div>
+
+  <div class="resume-card">
+    <h3>Technical Communication</h3>
+    <p>Explaining technical concepts in plain language for customers, stakeholders, and mixed technical audiences.</p>
+  </div>
+
+  <div class="resume-card">
+    <h3>Business Alignment</h3>
+    <p>Connecting technical possibilities to business needs, expected outcomes, and practical value realization.</p>
+  </div>
+</div>
+
+## Competencies
+
+### Solution Engineering and Presales
+- Solution discovery
+- Requirements gathering
+- Technical solution articulation
+- Customer-facing communication
+- Proposal and response support
+- Business problem framing
+- Technical storytelling
+- Value-based positioning
 
 ### Data and Analytics
 - SQL
 - Tableau
 - Power BI
 - Microsoft Excel
-- Data visualization
-- KPI design
 - Reporting concepts
-- Dashboard development concepts
+- Dashboard thinking
+- KPI design
+- Data interpretation
+- Data storytelling
 
-### Solution Engineering
-- Solution discovery
-- Technical documentation
-- Requirements gathering
-- Business problem mapping
-- Use-case alignment
-- Technical presentations
-- Proposal support
-- Customer solution discussions
-
-### Data Platform and Architecture Awareness
+### Data Platform Awareness
 - Data warehouse concepts
 - Lakehouse concepts
-- Data governance awareness
-- Data integration concepts
+- Data integration awareness
+- Governance and reporting foundations
 - Analytics architecture fundamentals
 - AI readiness discussions
 
@@ -60,53 +77,43 @@ Presales Engineer with a growing background in **data solutions, analytics, tech
 **Bluechip Technologies**  
 *Current*
 
-Support customer-facing technical engagements by aligning business needs with technology capabilities across data and analytics-related opportunities. Contribute to technical discussions, requirements understanding, solution articulation, and professional communication that supports sales and solution development efforts.
+Support technical and customer-facing engagements by helping align business needs with technology capabilities across data, analytics, and solution-oriented opportunities.
 
-**Key responsibilities include:**
-- Supporting customer conversations with clear technical explanation
-- Helping shape solution concepts based on client needs
-- Assisting with requirement gathering and solution mapping
-- Preparing technical writeups, supporting materials, and structured responses
-- Contributing to data and analytics solution positioning
-- Translating technical offerings into business-relevant value points
+#### Responsibilities
+- Support solution discussions with clear and professional technical communication
+- Contribute to understanding customer pain points and solution requirements
+- Assist in shaping practical solution responses for business and technical audiences
+- Prepare technical writeups, response materials, and structured solution documentation
+- Help communicate the business relevance of technical capabilities
+- Support data and analytics solution positioning where appropriate
 
-## Selected Strengths
+## Selected Professional Qualities
 
-### Solution Discovery
-Able to engage with business and technical stakeholders to identify challenges, ask relevant questions, and frame solution needs clearly.
+### Customer-Focused Thinking
+I value understanding the customer’s actual challenge before discussing tools or solution components.
 
-### Analytics Thinking
-Interested in how reporting, dashboards, KPIs, and data structures can be used to drive business visibility and decision-making.
+### Structured Problem Solving
+I approach solutioning with a step-by-step mindset that connects business context, technical direction, and expected value.
 
-### Technical Communication
-Comfortable simplifying complex topics into language that is useful for customers, internal teams, and decision-makers.
+### Communication and Clarity
+I believe strong technical work should also be easy to explain, defend, and present professionally.
 
-### Business Alignment
-Focused on ensuring that technology recommendations are tied to outcomes, priorities, and customer context.
+### Continuous Growth
+I am committed to deepening my expertise in analytics, solution engineering, data platforms, and business-facing technical advisory.
 
-## Projects and Portfolio Focus
+## Portfolio Focus
 
-This portfolio highlights two major areas of work and interest:
+This portfolio reflects two major areas of professional development:
 
-### 1. Data Analytics Projects
-Projects demonstrating practical analytics thinking, data storytelling, KPI design, and business insight generation.
+### Data Analytics Projects
+Projects that demonstrate analytics thinking, business problem-solving, KPI design, reporting logic, and insight communication.
 
-### 2. Technical Writeups and Articles
-Articles and explanations focused on analytics, business intelligence, solution engineering, and technical problem-solving.
-
-## Professional Interests
-
-- Data analytics and business intelligence
-- Presales engineering
-- Data platform modernization
-- Solution advisory
-- Technical writing
-- Customer solution presentations
-- Business-focused technology communication
+### Technical Articles and Writeups
+Articles that simplify technical concepts and explore practical ideas in analytics, BI, data platforms, and presales engineering.
 
 ## Education
 
-Add your academic background here in this format:
+Add your education details here in this format:
 
 **Degree / Qualification**  
 Institution Name  
@@ -114,21 +121,21 @@ Year
 
 ## Certifications
 
-Add relevant certifications here. Suggested examples based on your profession may include:
+Add your certifications here. Recommended certifications for your field may include:
 
 - Microsoft Certified: Azure Fundamentals
 - Microsoft Certified: Azure Data Fundamentals
 - Microsoft Certified: Power BI Data Analyst Associate
-- Tableau-related certifications
-- Cloud, analytics, or data engineering certifications
+- Tableau certifications
+- Cloud or data platform certifications
 
-## Resume Download
+## Professional Links
 
-You can also add a downloadable PDF version of your resume here once available:
-
-[Download Resume PDF](/assets/files/Soyoola-Sodunke-Resume.pdf)
-
-## LinkedIn and GitHub
-
-- [LinkedIn](https://www.linkedin.com/)
 - [GitHub](https://github.com/soyoolasodunke)
+- [LinkedIn](https://www.linkedin.com/in/soyoolasodunke/)
+
+## Downloadable Resume
+
+Once your PDF resume is ready, place it in `assets/files/` and link it below:
+
+[Download Resume PDF]({{ '/assets/files/Soyoola-Sodunke-Resume.pdf' | relative_url }})
