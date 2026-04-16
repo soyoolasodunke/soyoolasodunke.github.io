@@ -23,51 +23,16 @@ The projects featured here are designed to highlight strengths in areas such as:
 - Solution communication
 - Business-focused recommendations
 
-Each project is approached with a practical mindset: understand the problem, work through the data, generate insight, and present findings in a way that is meaningful to decision-makers.
-
-## Project Categories
-
-### Data Analytics Projects
-Projects in this category focus on using data to answer business questions, identify patterns, and support better decisions.
-
-### Business Intelligence and Reporting
-These projects focus on how data should be structured, presented, and used in reporting environments.
-
-### Solution and Case-Based Projects
-These projects demonstrate solution thinking, especially where business needs must be translated into a technical or analytical response.
-
-## Why This Matters
-
-As a Presales Engineer and Data Solutions Engineer, I believe projects should do more than display tools or charts. They should demonstrate structured thinking, clarity of communication, and the ability to connect analysis to business value.
-
-That is the standard these projects aim to meet.
-
 ## Project Portfolio
 
 {% assign sorted_projects = site.projects | sort: "title" %}
 
 {% if sorted_projects.size > 0 %}
+<div class="card-grid">
   {% for project in sorted_projects %}
-  ### [{{ project.title }}]({{ project.url | relative_url }})
-
-  {% if project.summary %}
-  {{ project.summary }}
-  {% elsif project.description %}
-  {{ project.description }}
-  {% else %}
-  A project focused on business problem-solving, analytics, and solution-oriented thinking.
-  {% endif %}
-
-  {% if project.tools %}
-  **Tools:** {{ project.tools | join: ", " }}
-  {% endif %}
-
-  {% if project.business_problem %}
-  **Business Problem:** {{ project.business_problem }}
-  {% endif %}
-
-  ---
+    {% include project-card.html project=project %}
   {% endfor %}
+</div>
 {% else %}
 No projects have been published yet. Project entries added to the `_projects` folder will automatically appear here.
 {% endif %}
