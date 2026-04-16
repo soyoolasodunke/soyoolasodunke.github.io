@@ -108,7 +108,7 @@ Because some sector regulator primary documents (notably the Nigerian Communicat
 
 The following timeline reflects major milestones relevant to critical infrastructure security, data protection, and continuity expectations: Cybercrimes law foundations, the 2021 national cybersecurity strategy refresh, the NDPA, the CNII order, the CBN’s updated risk-based framework, and the GAID implementation directive.
 
-```mermaid
+<div class="mermaid">
 timeline
   title Nigeria: cyber, data protection, and CNII milestones
   2015 : Cybercrimes Act establishes cybercrime/CNII foundations
@@ -118,7 +118,7 @@ timeline
   2024 : CBN Risk-Based Cybersecurity Framework issued (May 31, 2024) / effective (July 1, 2024)
   2025 : GAID issued by NDPC (March 20, 2025) / widely reported effective (Sept 2025)
   2026 : NCC telecom cyber incident reporting requirements widely reported (effective Feb 2027)
-```
+</div>
 
 ## Trusted products and services: criteria, examples, and procurement guidance
 
