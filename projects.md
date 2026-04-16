@@ -7,21 +7,7 @@ permalink: /projects/
 
 # Projects
 
-This section showcases selected projects that reflect my interest in **data analytics, business problem-solving, decision support, and solution-oriented thinking**.
-
-The goal of these projects is not only to demonstrate technical ability, but also to show how data can be used to solve real business problems, support decision-making, and communicate insights clearly to stakeholders.
-
-## What These Projects Represent
-
-The projects featured here are designed to highlight strengths in areas such as:
-
-- Business problem framing
-- Data analysis and interpretation
-- Dashboard and KPI thinking
-- Reporting and decision support
-- Structured problem-solving
-- Solution communication
-- Business-focused recommendations
+This section showcases selected projects that reflect my interest in **business problem-solving and solution-oriented thinking**. The goal here is not only to demonstrate technical ability, but also to show how data can be used to solve real business problems, support decision-making, and communicate insights clearly to stakeholders.
 
 ## Project Portfolio
 
@@ -39,6 +25,6 @@ No projects have been published yet. Project entries added to the `_projects` fo
 
 ## Related Content
 
-You may also be interested in the technical articles section, where I share writeups on analytics, business intelligence, solution engineering, and related technical concepts.
+You may also be interested in the articles section, where I give practical perspectives on solving enterprise data challenges, with a focus on data foundations, governance, trust, and informed technology decisions.
 
 [Read Articles]({{ '/articles/' | relative_url }})
