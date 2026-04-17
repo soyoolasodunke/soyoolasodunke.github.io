@@ -4,10 +4,6 @@ title: Home
 description: "Presales portfolio of Soyoola Sodunke, focused on case studies, solution methodology, and business-aligned Data & AI advisory."
 ---
 
-## Why This Site Exists
-
-I built this portfolio to demonstrate a **presales engineering operating model**, not just technical interest. The emphasis is on how I approach customer problems, shape solution direction, communicate the commercial value of Data &amp; AI initiatives, and support decision-making across the opportunity lifecycle.
-
 <div class="card-grid">
   <div class="card">
     <h3>Case Studies</h3>
@@ -76,6 +72,7 @@ This portfolio is not meant to show technical quality in isolation. It is design
   </div>
 </div>
 
+<!--
 ## Featured Case Studies
 
 These two case studies best reflect the kind of presales work I want this portfolio to communicate: shaping a business problem, framing a technically credible solution path, and making the value proposition clear for both executive and technical stakeholders.
@@ -95,6 +92,7 @@ These two case studies best reflect the kind of presales work I want this portfo
 <p>They were selected because they show two core strengths that matter in enterprise presales: translating technical options into business outcomes, and using solution design to build buyer confidence.</p>
 
 <p><a href="{{ '/case-studies/' | relative_url }}">View All Case Studies →</a></p>
+-->
 
 ## My Presales Flow
 
