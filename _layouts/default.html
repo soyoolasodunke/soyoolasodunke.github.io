@@ -17,7 +17,7 @@
      theme: 'default'
     });
   </script>
-  <body>
+  <body class="page-{{ page.url | replace: '/', ' ' | strip | replace: ' ', '-' | default: 'home' }}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
     <header class="site-header">
       <div class="container">
         <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
