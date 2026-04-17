@@ -352,6 +352,64 @@ section, .page-section { margin-bottom: 3rem; }
 .meta-content { font-weight: 700; color: var(--heading); }
 .content-shell { max-width: 900px; }
 .content-main > *:first-child { margin-top: 0; }
+
+.content-main,
+.article-content {
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+.content-main p,
+.content-main li,
+.article-content p,
+.article-content li {
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+.content-main h2,
+.article-content h2 {
+  font-size: clamp(2rem, 4vw, 2.55rem);
+  margin-top: 3.4rem;
+  margin-bottom: 1rem;
+}
+.content-main h3,
+.article-content h3 {
+  font-size: clamp(1.35rem, 3vw, 1.72rem);
+  margin-top: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+.content-main h4,
+.article-content h4 {
+  font-size: 1.12rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.55rem;
+}
+.content-main ul,
+.content-main ol,
+.article-content ul,
+.article-content ol {
+  padding-left: 1.35rem;
+  margin: 1rem 0 1.4rem;
+}
+.content-main blockquote,
+.article-content blockquote {
+  font-size: 1.06rem;
+}
+.content-main .card p,
+.content-main .card li,
+.article-content .card p,
+.article-content .card li {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.project-page .content-shell,
+.article-page .content-shell {
+  max-width: 760px;
+}
+.article-page .page-hero,
+.project-page .page-hero {
+  max-width: 860px;
+}
+
 .resume-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -421,4 +479,37 @@ blockquote {
   .hero { padding-top: 4.3rem; }
   .hero-text { font-size: 1rem; }
   .page-hero { padding: 1.35rem; }
+  .project-page .content-shell,
+  .article-page .content-shell {
+    max-width: 100%;
+  }
+  .content-main,
+  .article-content {
+    font-size: 1.14rem;
+    line-height: 1.92;
+  }
+  .content-main p,
+  .content-main li,
+  .article-content p,
+  .article-content li {
+    font-size: 1.14rem;
+    line-height: 1.92;
+  }
+  .content-main h2,
+  .article-content h2 {
+    font-size: 1.85rem;
+    line-height: 1.2;
+    margin-top: 2.6rem;
+  }
+  .content-main h3,
+  .article-content h3 {
+    font-size: 1.45rem;
+    line-height: 1.28;
+  }
+  .content-main blockquote,
+  .article-content blockquote {
+    margin-inline: 0;
+    padding: 1rem 1rem 1rem 1.05rem;
+    font-size: 1rem;
+  }
 }
