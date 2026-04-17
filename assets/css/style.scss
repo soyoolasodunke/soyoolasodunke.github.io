@@ -532,15 +532,24 @@ blockquote {
   gap: 2rem;
   align-items: start;
 }
+.reading-layout > * {
+  min-width: 0;
+}
 .reading-sidebar {
   position: relative;
+  min-width: 0;
 }
 .reading-shell {
   max-width: 760px;
+  min-width: 0;
 }
 .toc-card {
   position: sticky;
   top: 5.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
   padding: 1rem 1rem 1rem 1.1rem;
   border: 1px solid var(--border);
   border-radius: 18px;
@@ -563,10 +572,13 @@ blockquote {
   margin-top: 0.55rem;
 }
 .toc-list a {
+  display: block;
   color: #475569;
   text-decoration: none;
   line-height: 1.5;
   font-size: 0.95rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .toc-list a:hover,
 .toc-list a.is-active {
@@ -648,9 +660,11 @@ blockquote {
 @media (max-width: 1080px) {
   .reading-layout {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
   .reading-sidebar {
     order: -1;
+    width: 100%;
   }
   .toc-card {
     position: static;
@@ -691,5 +705,29 @@ blockquote {
   }
   .toc-list a {
     font-size: 0.98rem;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .reading-layout {
+    gap: 1rem;
+  }
+  .reading-sidebar {
+    margin-bottom: 0.2rem;
+  }
+  .toc-card {
+    padding: 0.9rem 0.95rem;
+    border-radius: 16px;
+  }
+  .toc-title {
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+  }
+  .toc-list {
+    padding-left: 1rem;
+  }
+  .toc-list a {
+    font-size: 0.95rem;
+    line-height: 1.45;
   }
 }
