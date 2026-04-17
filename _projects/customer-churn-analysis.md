@@ -15,7 +15,7 @@ tools:
   - Python
 business_problem: "The business needed to understand why customers were leaving and which segments were most at risk."
 featured: true
-github_url: "https://github.com/soyoolasodunke"
+github_url: ""
 demo_url: ""
 ---
 

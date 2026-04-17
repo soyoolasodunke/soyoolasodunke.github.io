@@ -6,7 +6,7 @@ description: "Presales portfolio of Soyoola Sodunke, focused on case studies, so
 
 ## Why This Site Exists
 
-I built this portfolio to demonstrate a **presales engineering operating model**, not just technical interest. The emphasis is on how I approach customer problems, shape solution direction, and communicate the commercial value of Data &amp; AI initiatives with clarity.
+I built this portfolio to demonstrate a **presales engineering operating model**, not just technical interest. The emphasis is on how I approach customer problems, shape solution direction, communicate the commercial value of Data &amp; AI initiatives, and support decision-making across the opportunity lifecycle.
 
 <div class="card-grid">
   <div class="card">
@@ -49,19 +49,50 @@ I built this portfolio to demonstrate a **presales engineering operating model**
   </div>
 </div>
 
-## Featured Case Study
+## Sales Impact
+
+This portfolio is not meant to show technical quality in isolation. It is designed to show how I support revenue motions: by increasing buyer clarity, shaping stronger solution narratives, reducing technical uncertainty, and helping commercial teams move opportunities forward with confidence.
+
+<div class="card-grid two-up impact-grid">
+  <div class="card impact-card">
+    <p class="card-kicker">Where I Influence Revenue</p>
+    <h3>Pipeline Shaping and Opportunity Qualification</h3>
+    <p>I help turn early-stage customer interest into better-qualified opportunities by surfacing the real business problem, technical constraints, and decision criteria.</p>
+  </div>
+  <div class="card impact-card">
+    <p class="card-kicker">How I Support Deal Progression</p>
+    <h3>Technical Confidence That Supports Commercial Momentum</h3>
+    <p>I use discovery, architecture framing, demo strategy, and value articulation to reduce ambiguity for buying teams and strengthen the credibility of the proposed solution.</p>
+  </div>
+  <div class="card impact-card">
+    <p class="card-kicker">Buyer Enablement</p>
+    <h3>Executive and Technical Alignment</h3>
+    <p>I tailor the same recommendation for different stakeholders so commercial sponsors, operational leaders, and technical evaluators can all see why the solution matters.</p>
+  </div>
+  <div class="card impact-card">
+    <p class="card-kicker">Commercial Outcome</p>
+    <h3>Clearer Value Narratives for Higher-Stakes Decisions</h3>
+    <p>The goal is not only to explain what a platform can do, but to make the business case, implementation logic, and expected value understandable enough to support a buying decision.</p>
+  </div>
+</div>
+
+## Featured Case Studies
+
+These two case studies best reflect the kind of presales work I want this portfolio to communicate: shaping a business problem, framing a technically credible solution path, and making the value proposition clear for both executive and technical stakeholders.
 
 {% assign featured_projects = site.projects | where: "featured", true %}
 
 {% if featured_projects.size > 0 %}
-<div class="card-grid">
-  {% for project in featured_projects limit:3 %}
+<div class="card-grid two-up">
+  {% for project in featured_projects limit:2 %}
     {% include project-card.html project=project %}
   {% endfor %}
 </div>
 {% else %}
 <p>Add <code>featured: true</code> to a case study in the <code>_projects</code> collection to surface it here.</p>
 {% endif %}
+
+<p>They were selected because they show two core strengths that matter in enterprise presales: translating technical options into business outcomes, and using solution design to build buyer confidence.</p>
 
 <p><a href="{{ '/case-studies/' | relative_url }}">View All Case Studies →</a></p>
 

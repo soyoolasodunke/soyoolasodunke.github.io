@@ -1,74 +1,74 @@
 ---
 layout: default
 title: Resume
-description: "Professional resume of Soyoola Sodunke, Presales Engineer and Data Solutions Engineer with strengths in analytics, technical communication, and solution design."
+description: "Professional resume of Soyoola Sodunke, Presales Engineer focused on Data & AI solutioning, technical storytelling, and value-based customer advisory."
 permalink: /resume/
 ---
 
 # Resume
 
-> **Presales Engineer | Data Solutions Engineer**  
-> Customer-facing technical professional with strengths in analytics, solution-oriented communication, business problem discovery, and technical value articulation.
+> **Presales Engineer | Data &amp; AI Solutioning**  
+> Customer-facing technical professional focused on discovery, solution framing, technical storytelling, and business value articulation across data, analytics, governance, and AI-oriented opportunities.
 
-## Professional Summary
+## Executive Profile
 
-I am a Presales Engineer with a growing focus on **data analytics, business intelligence, data governance, cloud adoption, AI readiness, and customer-facing technical advisory**. My professional interest lies in understanding business challenges, shaping practical technical responses, and communicating solutions in a way that is clear, credible, and aligned to business value.
+I work at the intersection of business priorities, technical design, and buying decisions. My focus is helping customers and internal commercial teams move from vague requirements to credible solution direction by clarifying the business problem, translating technical options into decision-ready narratives, and aligning architecture to expected outcomes.
 
-I enjoy working at the intersection of business and technology, especially where technical concepts must be simplified for stakeholders, opportunities must be framed clearly, and data-related solutions must be positioned in a structured and practical way.
+My strongest contribution in presales is not only explaining technology, but making it commercially legible: why it matters, how it can be adopted, what constraints matter, and how to present it credibly to both executive and technical stakeholders.
 
-## Core Strengths
+## Core Value in Presales
 
 <div class="resume-grid">
   <div class="resume-card">
-    <h3>Presales and Solution Support</h3>
-    <p>Supporting technical sales conversations through solution mapping, requirements understanding, and clear technical communication.</p>
+    <h3>Discovery and Qualification</h3>
+    <p>Structure customer conversations around business drivers, current-state limitations, risk areas, success criteria, and stakeholder needs.</p>
   </div>
 
   <div class="resume-card">
-    <h3>Analytics and BI Thinking</h3>
-    <p>Applying analytics, reporting, KPI design, and dashboard concepts to support better business visibility and decision-making.</p>
+    <h3>Solution Framing</h3>
+    <p>Translate customer requirements into practical solution hypotheses, architecture directions, and technically credible recommendation paths.</p>
   </div>
 
   <div class="resume-card">
-    <h3>Technical Communication</h3>
-    <p>Explaining technical concepts in plain language for customers, stakeholders, and mixed technical audiences.</p>
+    <h3>Technical Storytelling</h3>
+    <p>Adapt the same solution narrative for executives, business sponsors, and technical evaluators without losing precision or relevance.</p>
   </div>
 
   <div class="resume-card">
-    <h3>Business Alignment</h3>
-    <p>Connecting technical possibilities to business needs, expected outcomes, and practical value realization.</p>
+    <h3>Business Value Translation</h3>
+    <p>Connect technical capability to measurable outcomes such as efficiency, risk reduction, visibility, resilience, and readiness for future scale.</p>
   </div>
 </div>
 
-## Competencies
+## Capability Summary
 
-### Solution Engineering and Presales
-- Solution discovery
-- Requirements gathering
-- Technical solution articulation
-- Customer-facing communication
-- Proposal and response support
-- Business problem framing
-- Technical storytelling
-- Value-based positioning
+### Presales and Solution Consulting
+- Structured discovery and requirements clarification
+- Business problem framing and use case definition
+- Solution mapping and architecture positioning
+- Technical presentations, demos, and walkthroughs
+- Proposal support and response development
+- Stakeholder-aware communication
+- Objection handling support and solution clarification
+- Value-based positioning for customer discussions
 
-### Data and Analytics
+### Data, Analytics, and AI Domains
+- Analytics and business intelligence solutioning
+- KPI, reporting, and dashboard thinking
+- Data platform modernization conversations
+- Data governance and trust-oriented discussions
+- AI readiness and use case qualification
+- Data storytelling for decision support
+
+### Technical Toolkit and Working Knowledge
 - SQL
-- Power BI & Tableau
+- Power BI
+- Tableau
 - Microsoft Excel
-- Reporting concepts
-- KPI thinking
-- Data interpretation
-- Data storytelling
-- Use case recommendation
-
-### Data Platform Awareness
-- Data warehouse concepts
-- Lakehouse concepts
-- Data integration awareness
-- Governance and reporting foundations
+- Python
+- Data warehouse and lakehouse concepts
 - Analytics architecture fundamentals
-- AI readiness discussions
+- Governance and reporting foundations
 
 ## Professional Experience
 
@@ -76,30 +76,29 @@ I enjoy working at the intersection of business and technology, especially where
 **Bluechip Technologies**  
 *Current*
 
-Support technical and customer-facing engagements by helping align business needs with technology capabilities across data, analytics, and solution-oriented opportunities.
+Support customer-facing technical engagements by aligning business needs with solution capabilities across data, analytics, and transformation-oriented opportunities.
 
-#### Responsibilities
-- Support solution discussions with clear and professional technical communication
-- Contribute to understanding customer pain points and solution requirements
-- Assist in shaping practical solution responses for business and technical audiences
-- Prepare technical writeups, response materials, and structured solution documentation
-- Help communicate the business relevance of technical capabilities
-- Support data and analytics solution positioning where appropriate
+#### Representative Contributions
+- Support discovery conversations to clarify customer pain points, operating constraints, and target outcomes
+- Help shape solution responses that are understandable, credible, and relevant to both business and technical audiences
+- Contribute to technical writeups, response materials, and structured solution documentation
+- Position data and analytics capabilities in a way that connects platform features to practical business value
+- Collaborate with internal teams to improve the clarity and defensibility of solution recommendations
+- Help communicate the implementation logic, trade-offs, and expected benefits of proposed approaches
 
-## Selected Professional Qualities
+## Working Style
 
-### Customer-Focused Thinking
-I value understanding the customer’s actual challenge before discussing tools or solution components.
+### Business-First Problem Solving
+I prefer to anchor technical conversations in business context before moving into product, platform, or architecture discussions.
 
-### Structured Problem Solving
-I approach solutioning with a step-by-step mindset that connects business context, technical direction, and expected value.
+### Clear, Defensible Communication
+I aim to make solution recommendations easy to explain, easy to defend, and useful across mixed stakeholder groups.
 
-### Communication and Clarity
-I believe strong technical work should also be easy to explain, defend, and present professionally.
+### Commercial and Technical Balance
+I care about solution accuracy, but I also care about adoption logic, decision confidence, and the commercial relevance of the recommendation.
 
-### Continuous Growth
-I am committed to deepening my expertise in analytics, solution engineering, data platforms, and business-facing technical advisory.
-
+### Continuous Capability Building
+I am actively deepening my expertise across analytics, data platforms, governance, AI use cases, and value-led technical advisory.
 
 ## Education
 
@@ -111,13 +110,12 @@ Year
 
 ## Certifications
 
-Add your certifications here. Recommended certifications for your field may include:
+Add your certifications here as they are completed. Strong options for this portfolio include:
 
 - Microsoft Certified: Azure Fundamentals
 - Microsoft Certified: Azure Data Fundamentals
 - Microsoft Certified: Power BI Data Analyst Associate
-- Tableau certifications
-- Cloud or data platform certifications
+- Relevant cloud, analytics, or data platform certifications
 
 ## Professional Links
 
