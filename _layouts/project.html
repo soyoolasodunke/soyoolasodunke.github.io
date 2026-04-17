@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<article class="project-page">
-  <header class="page-hero page-hero-project">
+<article class="project-page reading-page">
+  <header class="page-hero page-hero-project reading-hero">
     <p class="page-label">{{ page.page_label | default: 'Case Study' }}</p>
     <h1>{{ page.title }}</h1>
 
@@ -13,7 +13,7 @@ layout: default
       <p class="page-summary">{{ page.description }}</p>
     {% endif %}
 
-    <div class="page-meta-wrap">
+    <div class="page-meta-wrap reading-meta">
       {% if page.industry %}
         <div class="page-meta-block">
           <span class="meta-heading">Industry</span>
@@ -48,40 +48,49 @@ layout: default
     {% endif %}
   </header>
 
-  <div class="content-shell">
-    <div class="content-main">
-      {% if page.client_context or page.business_problem or page.role or page.outcome %}
-      <section class="page-section">
-        <div class="card-grid two-up">
-          {% if page.client_context %}
-          <div class="card">
-            <h3>Client Context</h3>
-            <p>{{ page.client_context }}</p>
-          </div>
-          {% endif %}
-          {% if page.business_problem %}
-          <div class="card">
-            <h3>Business Problem</h3>
-            <p>{{ page.business_problem }}</p>
-          </div>
-          {% endif %}
-          {% if page.role %}
-          <div class="card">
-            <h3>My Role</h3>
-            <p>{{ page.role }}</p>
-          </div>
-          {% endif %}
-          {% if page.outcome %}
-          <div class="card">
-            <h3>Outcome</h3>
-            <p>{{ page.outcome }}</p>
-          </div>
-          {% endif %}
-        </div>
-      </section>
-      {% endif %}
+  <div class="reading-layout">
+    <aside class="reading-sidebar" aria-label="On this page">
+      <nav class="toc-card js-toc" data-toc-root="project-body">
+        <p class="toc-title">On this page</p>
+        <ol class="toc-list"></ol>
+      </nav>
+    </aside>
 
-      {{ content }}
+    <div class="content-shell reading-shell">
+      <div class="content-main prose" id="project-body">
+        {% if page.client_context or page.business_problem or page.role or page.outcome %}
+        <section class="page-section case-study-summary-cards">
+          <div class="card-grid two-up compact-summary-grid">
+            {% if page.client_context %}
+            <div class="card compact-card">
+              <h3>Client Context</h3>
+              <p>{{ page.client_context }}</p>
+            </div>
+            {% endif %}
+            {% if page.business_problem %}
+            <div class="card compact-card">
+              <h3>Business Problem</h3>
+              <p>{{ page.business_problem }}</p>
+            </div>
+            {% endif %}
+            {% if page.role %}
+            <div class="card compact-card">
+              <h3>My Role</h3>
+              <p>{{ page.role }}</p>
+            </div>
+            {% endif %}
+            {% if page.outcome %}
+            <div class="card compact-card">
+              <h3>Outcome</h3>
+              <p>{{ page.outcome }}</p>
+            </div>
+            {% endif %}
+          </div>
+        </section>
+        {% endif %}
+
+        {{ content }}
+      </div>
     </div>
   </div>
 </article>
