@@ -9,19 +9,19 @@
     About
   </a>
 
-  <a href="{{ '/projects/' | relative_url }}"
-     class="{% if page.url contains '/projects/' %}active{% endif %}">
-    Projects
+  <a href="{{ '/case-studies/' | relative_url }}"
+     class="{% if page.url contains '/projects/' or page.url contains '/case-studies/' %}active{% endif %}">
+    Case Studies
   </a>
 
-  <a href="{{ '/articles/' | relative_url }}"
-     class="{% if page.url contains '/articles/' %}active{% endif %}">
-    Articles
+  <a href="{{ '/methodology/' | relative_url }}"
+     class="{% if page.url contains '/methodology/' %}active{% endif %}">
+    Methodology
   </a>
 
-  <a href="{{ '/resume/' | relative_url }}"
-     class="{% if page.url contains '/resume/' %}active{% endif %}">
-    Resume
+  <a href="{{ '/insights/' | relative_url }}"
+     class="{% if page.url contains '/articles/' or page.url contains '/insights/' %}active{% endif %}">
+    Insights
   </a>
 
   <a href="{{ '/contact/' | relative_url }}"

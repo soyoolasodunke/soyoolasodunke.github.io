@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Articles
-description: "Read technical articles and writeups by Soyoola Sodunke on analytics, business intelligence, data platforms, and presales engineering."
-permalink: /articles/
+title: Insights
+description: "Technical and commercial insights by Soyoola Sodunke on Data, AI, solution engineering, and business-focused technology advisory."
+permalink: /insights/
 ---
 
-# Articles
+# Insights
 
-This section features technical articles and professional insights focused on data analytics, AI-driven solutions, and presales engineering practices. Designed to translate complex technologies into clear, business-relevant narratives that support informed decision-making.
+These articles are written to make technical topics more decision-useful. The intent is not just to explain technology, but to connect it to customer priorities, transformation choices, and solution design implications.
 
-## Published Articles
+## Published Insights
 
 {% if site.posts.size > 0 %}
 <div class="card-grid">
@@ -18,11 +18,9 @@ This section features technical articles and professional insights focused on da
   {% endfor %}
 </div>
 {% else %}
-No articles have been published yet. New posts added to the `_posts` folder will automatically appear here.
+<p>No insights have been published yet. New posts added to the <code>_posts</code> folder will appear here automatically.</p>
 {% endif %}
 
-## Explore My Project Work
+## Also Explore
 
-Would you like to see practical examples of how these ideas are applied in the real world scenarios? Please visit my projects section for more.
-
-[View Projects]({{ '/projects/' | relative_url }})
+For applied examples, visit the [Case Studies]({{ '/case-studies/' | relative_url }}) section.

@@ -1,4 +1,5 @@
 <div class="card article-card">
+  <p class="card-kicker">Insight</p>
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
   <p class="meta">
@@ -10,7 +11,7 @@
   {% elsif post.excerpt %}
     <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
   {% else %}
-    <p>A technical article on analytics, business intelligence, solution design, or presales engineering.</p>
+    <p>A technical and commercial insight on Data, AI, governance, or solution engineering.</p>
   {% endif %}
 
   {% if post.categories and post.categories.size > 0 %}
@@ -19,11 +20,5 @@
     </p>
   {% endif %}
 
-  {% if post.tags and post.tags.size > 0 %}
-    <p class="meta">
-      <strong>Tags:</strong> {{ post.tags | join: ", " }}
-    </p>
-  {% endif %}
-
-  <p><a href="{{ post.url | relative_url }}">Read Article →</a></p>
+  <p><a href="{{ post.url | relative_url }}">Read Insight →</a></p>
 </div>

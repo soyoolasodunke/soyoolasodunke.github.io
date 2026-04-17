@@ -4,7 +4,7 @@ layout: default
 
 <article class="project-page">
   <header class="page-hero page-hero-project">
-    <p class="page-label">Project</p>
+    <p class="page-label">{{ page.page_label | default: 'Case Study' }}</p>
     <h1>{{ page.title }}</h1>
 
     {% if page.summary %}
@@ -14,17 +14,24 @@ layout: default
     {% endif %}
 
     <div class="page-meta-wrap">
+      {% if page.industry %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Industry</span>
+          <span class="meta-content">{{ page.industry }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.use_case %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Use Case</span>
+          <span class="meta-content">{{ page.use_case }}</span>
+        </div>
+      {% endif %}
+
       {% if page.tools %}
         <div class="page-meta-block">
           <span class="meta-heading">Tools</span>
           <span class="meta-content">{{ page.tools | join: ", " }}</span>
-        </div>
-      {% endif %}
-
-      {% if page.business_problem %}
-        <div class="page-meta-block">
-          <span class="meta-heading">Business Problem</span>
-          <span class="meta-content">{{ page.business_problem }}</span>
         </div>
       {% endif %}
     </div>
@@ -43,6 +50,37 @@ layout: default
 
   <div class="content-shell">
     <div class="content-main">
+      {% if page.client_context or page.business_problem or page.role or page.outcome %}
+      <section class="page-section">
+        <div class="card-grid two-up">
+          {% if page.client_context %}
+          <div class="card">
+            <h3>Client Context</h3>
+            <p>{{ page.client_context }}</p>
+          </div>
+          {% endif %}
+          {% if page.business_problem %}
+          <div class="card">
+            <h3>Business Problem</h3>
+            <p>{{ page.business_problem }}</p>
+          </div>
+          {% endif %}
+          {% if page.role %}
+          <div class="card">
+            <h3>My Role</h3>
+            <p>{{ page.role }}</p>
+          </div>
+          {% endif %}
+          {% if page.outcome %}
+          <div class="card">
+            <h3>Outcome</h3>
+            <p>{{ page.outcome }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </section>
+      {% endif %}
+
       {{ content }}
     </div>
   </div>

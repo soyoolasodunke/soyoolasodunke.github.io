@@ -1,6 +1,6 @@
 title: "Soyoola Sodunke"
-tagline: "Presales Engineer | Data Solutions Engineer"
-description: "Portfolio of data analytics projects, technical writeups, and solution engineering work by Soyoola Sodunke."
+tagline: "Presales Engineer | Data & AI Solutions"
+description: "Presales portfolio showcasing case studies, solution methodology, technical insights, and business-focused Data & AI advisory by Soyoola Sodunke."
 url: "https://soyoolasodunke.github.io"
 baseurl: ""
 theme: jekyll-theme-slate
@@ -37,11 +37,13 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      page_label: "Case Study"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "article"
+      page_label: "Insight"
   - scope:
       path: ""
     values:

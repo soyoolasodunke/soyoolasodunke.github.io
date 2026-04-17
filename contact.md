@@ -1,28 +1,24 @@
 ---
 layout: default
 title: Contact
-description: "Contact Soyoola Sodunke for professional opportunities, collaborations, and conversations around data analytics, presales engineering, and technical solutioning."
+description: "Contact Soyoola Sodunke for presales, solution consulting, and Data & AI conversations."
 permalink: /contact/
 ---
 
 # Contact
 
-Thank you for visiting my portfolio.
+I am open to conversations around:
 
-I am open to professional conversations around:
+- Presales and solution engineering opportunities
+- Data and AI advisory discussions
+- Technical storytelling and solution positioning work
+- Business-focused analytics and platform engagements
 
-- Presales Engineering opportunities
-- Data and analytics roles
-- Data and AI transformation engagements
-- BI and reporting projects
-- Knowledge-sharing
-
-## Get in Touch
-
-You can reach me through the following channels:
+## Best Ways to Reach Me
 
 - [**LinkedIn**](https://www.linkedin.com/in/soyoolasodunke/)
 - [**GitHub**](https://github.com/soyoolasodunke/)
 
-I do my best to respond to relevant messages as promptly as possible. 
-Thank you for your interest.
+## What You Can Expect
+
+If you reach out, it helps to include the business context, the type of opportunity, and the outcome you are trying to drive. That makes it easier for me to respond with something specific and useful.

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Projects
-description: "Explore data analytics, business intelligence, and solution-focused projects by Soyoola Sodunke."
-permalink: /projects/
+title: Case Studies
+description: "Case studies by Soyoola Sodunke showing business problems, solution framing, and business-aligned technical thinking."
+permalink: /case-studies/
 ---
 
-# Projects
+# Case Studies
 
-This section showcases selected projects that reflect my interest in **business problem-solving and solution-oriented thinking**. The goal here is not only to demonstrate technical ability, but also to show how data can be used to solve real business problems, support decision-making, and communicate insights clearly to stakeholders.
+This page highlights practical work in a **case study format**. Each entry is intended to show more than a toolset. It should explain the customer context, the business problem, the solution path, and the commercial relevance of the recommendation.
 
-## Project Portfolio
+## Selected Work
 
 {% assign sorted_projects = site.projects | sort: "title" %}
 
@@ -20,11 +20,14 @@ This section showcases selected projects that reflect my interest in **business 
   {% endfor %}
 </div>
 {% else %}
-No projects have been published yet. Project entries added to the `_projects` folder will automatically appear here.
+<p>No case studies have been published yet. Files added to the <code>_projects</code> collection will automatically appear here.</p>
 {% endif %}
 
-## Related Content
+## What Each Case Study Should Prove
 
-You may also be interested in the articles section, where I give practical perspectives on solving enterprise data challenges, with a focus on data foundations, governance, trust, and informed technology decisions.
+- the business problem was understood clearly
+- the technical response matched the requirement
+- the recommendation was framed in stakeholder language
+- the outcome was anchored in business value
 
-[Read Articles]({{ '/articles/' | relative_url }})
+For presales work, that combination matters more than a raw feature list.
