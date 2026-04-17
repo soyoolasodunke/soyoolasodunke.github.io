@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<article class="project-page">
+  <header class="page-hero page-hero-project">
+    <p class="page-label">{{ page.page_label | default: 'Case Study' }}</p>
+    <h1>{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="page-summary">{{ page.summary }}</p>
+    {% elsif page.description %}
+      <p class="page-summary">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="page-meta-wrap">
+      {% if page.industry %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Industry</span>
+          <span class="meta-content">{{ page.industry }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.use_case %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Use Case</span>
+          <span class="meta-content">{{ page.use_case }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.tools %}
+        <div class="page-meta-block">
+          <span class="meta-heading">Tools</span>
+          <span class="meta-content">{{ page.tools | join: ", " }}</span>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.github_url or page.demo_url %}
+      <div class="page-actions">
+        {% if page.github_url %}
+          <a class="btn-primary" href="{{ page.github_url }}">View GitHub Repo</a>
+        {% endif %}
+        {% if page.demo_url %}
+          <a class="btn-secondary" href="{{ page.demo_url }}">View Demo</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="content-shell">
+    <div class="content-main">
+      {% if page.client_context or page.business_problem or page.role or page.outcome %}
+      <section class="page-section">
+        <div class="card-grid two-up">
+          {% if page.client_context %}
+          <div class="card">
+            <h3>Client Context</h3>
+            <p>{{ page.client_context }}</p>
+          </div>
+          {% endif %}
+          {% if page.business_problem %}
+          <div class="card">
+            <h3>Business Problem</h3>
+            <p>{{ page.business_problem }}</p>
+          </div>
+          {% endif %}
+          {% if page.role %}
+          <div class="card">
+            <h3>My Role</h3>
+            <p>{{ page.role }}</p>
+          </div>
+          {% endif %}
+          {% if page.outcome %}
+          <div class="card">
+            <h3>Outcome</h3>
+            <p>{{ page.outcome }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </section>
+      {% endif %}
+
+      {{ content }}
+    </div>
+  </div>
+</article>

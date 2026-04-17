@@ -1,0 +1,30 @@
+<div class="card project-card">
+  <p class="card-kicker">Case Study</p>
+  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+
+  {% if project.summary %}
+    <p>{{ project.summary }}</p>
+  {% elsif project.description %}
+    <p>{{ project.description }}</p>
+  {% else %}
+    <p>A case study focused on business problem solving, solution framing, and technically credible recommendations.</p>
+  {% endif %}
+
+  {% if project.industry or project.use_case %}
+    <p class="meta">
+      {% if project.industry %}<strong>Industry:</strong> {{ project.industry }}{% endif %}
+      {% if project.industry and project.use_case %} <span>•</span> {% endif %}
+      {% if project.use_case %}<strong>Use Case:</strong> {{ project.use_case }}{% endif %}
+    </p>
+  {% endif %}
+
+  {% if project.tools %}
+    <p class="meta"><strong>Tools:</strong> {{ project.tools | join: ", " }}</p>
+  {% endif %}
+
+  {% if project.business_problem %}
+    <p class="meta"><strong>Business Problem:</strong> {{ project.business_problem }}</p>
+  {% endif %}
+
+  <p><a href="{{ project.url | relative_url }}">Read Case Study →</a></p>
+</div>

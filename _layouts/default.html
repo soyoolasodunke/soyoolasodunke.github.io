@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+     startOnLoad: true,
+     securityLevel: 'loose',
+     theme: 'default'
+    });
+  </script>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% include nav.html %}
+      </div>
+    </header>
+
+    {% if page.url == "/" %}
+      {% include hero.html %}
+    {% endif %}
+
+    <main class="container site-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        {% include footer.html %}
+      </div>
+    </footer>
+  </body>
+</html>

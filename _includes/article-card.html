@@ -1,0 +1,24 @@
+<div class="card article-card">
+  <p class="card-kicker">Insight</p>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+
+  <p class="meta">
+    <strong>Published:</strong> {{ post.date | date: "%B %d, %Y" }}
+  </p>
+
+  {% if post.description %}
+    <p>{{ post.description }}</p>
+  {% elsif post.excerpt %}
+    <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+  {% else %}
+    <p>A technical and commercial insight on Data, AI, governance, or solution engineering.</p>
+  {% endif %}
+
+  {% if post.categories and post.categories.size > 0 %}
+    <p class="meta">
+      <strong>Categories:</strong> {{ post.categories | join: ", " }}
+    </p>
+  {% endif %}
+
+  <p><a href="{{ post.url | relative_url }}">Read Insight →</a></p>
+</div>
