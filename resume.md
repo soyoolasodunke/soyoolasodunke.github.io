@@ -119,11 +119,11 @@ Add your certifications here as they are completed. Strong options for this port
 
 ## Professional Links
 
-- [GitHub](https://github.com/soyoolasodunke)
 - [LinkedIn](https://www.linkedin.com/in/soyoolasodunke/)
+- [GitHub](https://github.com/soyoolasodunke)
+- [X](https://x.com/soyoolasodunke)
+- [Email](soyoolasodunke@gmail.com)
 
-## Downloadable Resume
+## Download Full Resume Below
 
-Once your PDF resume is ready, place it in `assets/files/` and link it below:
-
-[Download Resume PDF]({{ '/assets/files/Soyoola-Sodunke-Resume.pdf' | relative_url }})
+[Download PDF Version]({{ '/assets/files/Resume-Soyoola-Sodunke-v2.pdf' | relative_url }})
