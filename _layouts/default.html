@@ -17,7 +17,7 @@
      theme: 'default'
     });
   </script>
-  <body>
+  <body class="page-{{ page.url | replace: '/', ' ' | strip | replace: ' ', '-' | default: 'home' }}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
     <header class="site-header">
       <div class="container">
         <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -38,5 +38,60 @@
         {% include footer.html %}
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const tocBlocks = document.querySelectorAll('.js-toc');
+        tocBlocks.forEach(function (toc) {
+          const rootId = toc.getAttribute('data-toc-root');
+          const root = document.getElementById(rootId);
+          const list = toc.querySelector('.toc-list');
+          if (!root || !list) return;
+
+          const headings = Array.from(root.querySelectorAll('h2, h3')).filter(function (heading) {
+            return heading.textContent.trim().length > 0;
+          });
+
+          if (headings.length < 2) {
+            toc.classList.add('is-hidden');
+            return;
+          }
+
+          headings.forEach(function (heading, index) {
+            if (!heading.id) {
+              heading.id = heading.textContent
+                .trim()
+                .toLowerCase()
+                .replace(/[^a-z0-9\s-]/g, '')
+                .replace(/\s+/g, '-');
+              if (!heading.id) heading.id = 'section-' + index;
+            }
+
+            const item = document.createElement('li');
+            if (heading.tagName.toLowerCase() === 'h3') item.style.marginLeft = '0.7rem';
+            const link = document.createElement('a');
+            link.href = '#' + heading.id;
+            link.textContent = heading.textContent;
+            item.appendChild(link);
+            list.appendChild(item);
+          });
+
+          const links = Array.from(list.querySelectorAll('a'));
+          const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              const link = links.find(function (candidate) {
+                return candidate.getAttribute('href') === '#' + entry.target.id;
+              });
+              if (!link) return;
+              if (entry.isIntersecting) {
+                links.forEach(function (candidate) { candidate.classList.remove('is-active'); });
+                link.classList.add('is-active');
+              }
+            });
+          }, { rootMargin: '-20% 0px -65% 0px', threshold: 0.1 });
+
+          headings.forEach(function (heading) { observer.observe(heading); });
+        });
+      });
+    </script>
   </body>
 </html>

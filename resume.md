@@ -102,28 +102,27 @@ I am actively deepening my expertise across analytics, data platforms, governanc
 
 ## Education
 
-Add your education details here in this format:
+Miva Open University, Abuja  |  MBA (In view)  
 
-**Degree / Qualification**  
-Institution Name  
-Year
+Federal University of Agriculture, Abeokuta  |  BSc.
+2011
 
 ## Certifications
 
-Add your certifications here as they are completed. Strong options for this portfolio include:
-
 - Microsoft Certified: Azure Fundamentals
-- Microsoft Certified: Azure Data Fundamentals
 - Microsoft Certified: Power BI Data Analyst Associate
+- Databricks Certified: Data Engineer Associate
+- Databricks Certified: Lakehouse Fundamentals
+- Microsoft & LinkedIn: Career Essentials in Data Analysis
 - Relevant cloud, analytics, or data platform certifications
 
 ## Professional Links
 
-- [GitHub](https://github.com/soyoolasodunke)
 - [LinkedIn](https://www.linkedin.com/in/soyoolasodunke/)
+- [GitHub](https://github.com/soyoolasodunke)
+- [X](https://x.com/soyoolasodunke)
+- [Email me about project](mailto:soyoolasodunke@gmail.com)
 
-## Downloadable Resume
+## Download Full Resume Below
 
-Once your PDF resume is ready, place it in `assets/files/` and link it below:
-
-[Download Resume PDF]({{ '/assets/files/Soyoola-Sodunke-Resume.pdf' | relative_url }})
+[Download PDF Version]({{ '/assets/files/Resume-Soyoola-Sodunke-v2.pdf' | relative_url }})
