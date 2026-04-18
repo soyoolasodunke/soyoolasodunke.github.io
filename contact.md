@@ -17,7 +17,9 @@ I am open to conversations around:
 ## Best Ways to Reach Me
 
 - [**LinkedIn**](https://www.linkedin.com/in/soyoolasodunke/)
-- [**GitHub**](https://github.com/soyoolasodunke/)
+- [**GitHub**](https://github.com/soyoolasodunke)
+- [**X**](https://x.com/soyoolasodunke)
+- [**Email me**](mailto:soyoolasodunke@gmail.com)
 
 ## What You Can Expect
 

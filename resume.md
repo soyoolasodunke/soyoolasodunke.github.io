@@ -102,19 +102,18 @@ I am actively deepening my expertise across analytics, data platforms, governanc
 
 ## Education
 
-Add your education details here in this format:
+Miva Open University, Abuja  |  MBA (In view)  
 
-**Degree / Qualification**  
-Institution Name  
-Year
+Federal University of Agriculture, Abeokuta  |  BSc.
+2011
 
 ## Certifications
 
-Add your certifications here as they are completed. Strong options for this portfolio include:
-
 - Microsoft Certified: Azure Fundamentals
-- Microsoft Certified: Azure Data Fundamentals
 - Microsoft Certified: Power BI Data Analyst Associate
+- Databricks Certified: Data Engineer Associate
+- Databricks Certified: Lakehouse Fundamentals
+- Microsoft & LinkedIn: Career Essentials in Data Analysis
 - Relevant cloud, analytics, or data platform certifications
 
 ## Professional Links
