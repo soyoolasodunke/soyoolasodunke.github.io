@@ -122,7 +122,7 @@ Add your certifications here as they are completed. Strong options for this port
 - [LinkedIn](https://www.linkedin.com/in/soyoolasodunke/)
 - [GitHub](https://github.com/soyoolasodunke)
 - [X](https://x.com/soyoolasodunke)
-- [Email](soyoolasodunke@gmail.com)
+- [Email me about project](mailto:soyoolasodunke@gmail.com)
 
 ## Download Full Resume Below
 
