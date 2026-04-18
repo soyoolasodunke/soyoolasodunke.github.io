@@ -1,7 +1,7 @@
 ---
 title: "How to Justify AI Investments to a CFO"
 layout: article
-description: "A structured guide for translating AI initiatives into financially credible investment cases. It frames AI as a margin and productivity lever, detailing how to link use cases to core financial drivers, quantify value through explicit equations, model full lifecycle costs, surface tradeoffs, and de-risk investments via phased execution and sensitivity analysis—ultimately aligning AI proposals with CFO decision criteria such as ROI, payback, and risk-adjusted returns."
+description: "A guide to building financially credible AI investment cases, framing AI as a margin and productivity lever. It links use cases to financial drivers, quantifies value with equations, models lifecycle costs, highlights tradeoffs, and reduces risk via phased execution and sensitivity analysis."
 categories:
   - Data & AI Strategy
 tags:
